@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Our Mini Website - About</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center; 
+            margin: 0;
+            padding: 0;
+        }
+        nav a { 
+            margin: 0 10px;
+            color: #e74c3c;
+            text-decoration: none;
+            font-weight: bold; 
+        }
+        nav a:hover { 
+            text-decoration: underline; 
+        }
+        section { 
+            background: rgba(255,255,255,0.8); 
+            margin: 20px; 
+            padding: 20px; 
+            border-radius: 10px;
+        }
+        img { 
+            max-width: 50%; 
+            margin: 15px auto; 
+            display: block;
+        } 
+        audio { 
+            max-width: 80%; 
+            margin: 15px auto; 
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a> 
+        <a href="about.html">About</a> 
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Page Title -->
+    <h1>About Us</h1>
+
+    <!-- Description -->
+    <section>
+        <p>This is the about page (about.html). Here we show our hobby, provide an audio explanation, and a sci-fi movie video.</p>
+
+    <!-- Image -->
+        <img src="img/hobby.png" alt="Our Hobby">
+
+    <!-- Audio -->
+        <audio controls>
+            <source src="audio/about-audio.m4a" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+    <!-- Video -->
+    <iframe
+        width="1000"
+        height="500"
+        src="https://drive.google.com/file/d/1_C6o1i3GuC0_swA8FyjDDEYBE51ZpNEF/preview"
+        allow="autoplay">
+    </iframe>
+
+    <!-- External Link -->
+        <p>Learn more about my hobby <a href="https://www.google.com" target="_blank">here</a>.</p>
+    </section>
+</body>
+</html>
